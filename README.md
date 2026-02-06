@@ -1,4 +1,4 @@
-### 完整架构概括 L4→L3→L2→L1→极简 L0
+### 完整架构概括 L4→L3→L2→L1→L0
 
 **L4 组织层 Roles Boundaries**  
 七个角色：**Researcher, External Tester, Architect, Coder, Reviewer, Internal Tester, Documenter PM**。每个角色独立会话、独立职责、不得越界。
@@ -12,7 +12,7 @@
 **L1 执行层 Sessions**  
 每个角色对应一个 Claude Code 会话或终端标签页。角色不共享上下文、记忆或 prompt。角色切换由 prompt 驱动。
 
-**L0 极简自动化 Minimal L0（职责层面定义）**  
+**L0 自动化**  
 管理 Claude Code 实例、Claude 配置、提示词模板、pipeline 编排元数据、worktree 生命周期与并行安全检查；不包含具体实现细节或脚本。
 
 ---
