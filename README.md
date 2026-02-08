@@ -17,7 +17,7 @@
 ## metadata
 
 - action: "generate_impl"             # subagent 执行的动作
-- status: "success" | "partial" | "failed" | "blocked" | "done"
+- status: "success" | "partial" | "failed" | "blocked"
 - artifact_path: "path/to/artifact"   # 详细任务报告存放位置
 - file_change_count: 0
 - file_extensions:
@@ -38,7 +38,7 @@
 
 ## 三 全局状态机
 
-- **状态驱动**：`status` 决定分支方向（success → 下一阶段；partial → 补充；failed → 修复；blocked → 解锁；done → 下一阶段）。
+- **状态驱动**：`status` 决定分支方向（success → 下一阶段；partial → 补充；failed → 修复；blocked → 解锁）。
 - **目标驱动完成判定**：主 agent 根据 **上下文 + 用户目标** 判断任务是否完成，单个 subagent 无权判定完成。
 
 ## 四 主 agent 调度逻辑规范
