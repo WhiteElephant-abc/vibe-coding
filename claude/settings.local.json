@@ -1,0 +1,24 @@
+{
+  "permissions": {
+    "deny": [
+      "Task(Bash)",
+      "Task(general-purpose)",
+      "Task(statusline-setup)",
+      "Task(Explore)",
+      "Task(Plan)",
+      "Task(claude-code-guide)",
+      "Bash",
+      "Edit",
+      "EnterPlanMode",
+      "ExitPlanMode",
+      "Glob",
+      "Grep",
+      "NotebookEdit",
+      "Read",
+      "Skill",
+      "WebFetch",
+      "WebSearch",
+      "Write"
+    ]
+  }
+}
