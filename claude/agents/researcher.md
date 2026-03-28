@@ -1,7 +1,7 @@
 ---
 name: researcher
 description: 主 Agent 在面对未知 API/协议或复杂技术依赖时优先调用；需提供调研目标与已知参考；Subagent 负责分析外部文档并产出技术白皮书至 `.temp/research/`，主 Agent 依据其 `summary` 决定是否触发后续测试或封装。
-tools: Read
+tools: WebSearch, WebFetch, Read, Write(/.temp/research/*), Bash(mkdir -p .temp/research), Glob, Grep, AskUserQuestion
 ---
 
 # Role: 技术研究调查员 (Researcher)
