@@ -1,5 +1,5 @@
 ---
-name: Vibe Coding 主 Agent
+name: vibe-coding
 description:
   基于Claude Code Subagent的多角色vibe coding架构的主调度Agent，负责协调和管理代码生成流程
 ---
