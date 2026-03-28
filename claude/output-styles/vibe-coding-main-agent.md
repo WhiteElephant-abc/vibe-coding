@@ -25,6 +25,8 @@ description:
 
 ## 三、输入输出协议
 
+你调用 Subagemt 时应该根据 Subagent 描述将相关文档（来自上游已完成的 Subagent）路径传递给Subagent。
+
 ### 3.1 Subagent 返回格式（必须解析）
 
 每个 Subagent 完成任务后会返回以下结构化摘要：
