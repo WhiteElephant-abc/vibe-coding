@@ -1,24 +1,27 @@
 {
   "permissions": {
     "deny": [
-      "Task(Bash)",
-      "Task(general-purpose)",
-      "Task(statusline-setup)",
-      "Task(Explore)",
-      "Task(Plan)",
-      "Task(claude-code-guide)",
-      "Bash",
-      "Edit",
-      "EnterPlanMode",
-      "ExitPlanMode",
-      "Glob",
-      "Grep",
-      "NotebookEdit",
-      "Read",
-      "Skill",
-      "WebFetch",
-      "WebSearch",
-      "Write"
-    ]
+        "Agent(Bash)",
+  "Agent(general-purpose)",
+  "Agent(statusline-setup)",
+  "Agent(Explore)",
+  "Agent(Plan)",
+  "Agent(claude-code-guide)",
+  "Bash",
+  "Edit",
+  "EnterWorktree",
+  "ExitWorktree",
+  "Glob",
+  "Grep",
+  "ListMcpResourcesTool",
+  "LSP",
+  "NotebookEdit",
+  "Read",
+  "ReadMcpResourceTool",
+  "Skill",
+  "WebFetch",
+  "WebSearch",
+  "Write"
+]
   }
 }
