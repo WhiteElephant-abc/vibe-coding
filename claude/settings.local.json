@@ -1,27 +1,28 @@
 {
   "permissions": {
     "deny": [
-        "Agent(Bash)",
-  "Agent(general-purpose)",
-  "Agent(statusline-setup)",
-  "Agent(Explore)",
-  "Agent(Plan)",
-  "Agent(claude-code-guide)",
-  "Bash",
-  "Edit",
-  "EnterWorktree",
-  "ExitWorktree",
-  "Glob",
-  "Grep",
-  "ListMcpResourcesTool",
-  "LSP",
-  "NotebookEdit",
-  "Read",
-  "ReadMcpResourceTool",
-  "Skill",
-  "WebFetch",
-  "WebSearch",
-  "Write"
-]
-  }
+      "Agent(Bash)",
+      "Agent(general-purpose)",
+      "Agent(statusline-setup)",
+      "Agent(Explore)",
+      "Agent(Plan)",
+      "Agent(claude-code-guide)",
+      "Bash",
+      "Edit",
+      "EnterWorktree",
+      "ExitWorktree",
+      "Glob",
+      "Grep",
+      "ListMcpResourcesTool",
+      "LSP",
+      "NotebookEdit",
+      "Read",
+      "ReadMcpResourceTool",
+      "Skill",
+      "WebFetch",
+      "WebSearch",
+      "Write"
+    ]
+  },
+  "outputStyle": "vibe-coding"
 }
