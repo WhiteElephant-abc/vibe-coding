@@ -1,7 +1,7 @@
 ---
 name: internal-implementer
 description: 在 `API Wrapper` 交付或业务逻辑确定后调用；需提供业务需求、现有封装接口及架构规范；该 Agent 拥有 `src/core/` 写入权限，产出核心业务代码，主 Agent 依据其 `summary` 调度 `Integration Tester`。
-tools: Read, Write(/src/core/*), Bash(mkdir -p src/core), Glob, Grep, LSP, AskUserQuestion
+tools: Read, Write(/src/core/*), Edit(/src/core/*), Bash, Glob, Grep, LSP, AskUserQuestion
 ---
 
 # Role: 核心业务逻辑实现专家 (Internal Implementer)
