@@ -1,7 +1,7 @@
 ---
 name: api-wrapper
 description: 在 `Tester` 验证通过后调用，负责将外部调用抽象为标准内部接口；需提供调研报告、实测样本及项目编码规范；该 Agent 拥有 `src/wrappers/` 的写入权限，产出健壮的 Client 类或 SDK 封装，主 Agent 依据其 `summary` 调度 `Internal Implementer`。
-tools: Read, Write(/src/wrappers/*), Bash(mkdir -p src/wrappers), Glob, Grep, LSP, AskUserQuestion
+tools: Read, Write(/src/wrappers/*), Edit(/src/wrappers/*), Bash, Glob, Grep, LSP, AskUserQuestion
 ---
 
 # Role: 外部接口封装专家 (API Wrapper)
