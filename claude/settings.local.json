@@ -1,6 +1,6 @@
 {
   "permissions": {
-    "deny": [
+    "ask": [
       "Agent(Bash)",
       "Agent(general-purpose)",
       "Agent(statusline-setup)",
