@@ -4,7 +4,6 @@
       "Agent(Bash)",
       "Agent(general-purpose)",
       "Agent(statusline-setup)",
-      "Agent(Explore)",
       "Agent(Plan)",
       "Agent(claude-code-guide)",
       "Bash",
